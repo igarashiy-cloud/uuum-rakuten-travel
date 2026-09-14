@@ -22,3 +22,13 @@
 /rakuten-supersale-schedule.html  /post-schedule.html   301
 /rakuten-supersale-hotels         /hotel-ranking.html   301
 /rakuten-supersale-hotels.html    /hotel-ranking.html   301
+
+# ── 内部ファイルを外に出さない ──
+# Netlify はリポジトリ全体を配信するため、そのままだとマスタのCSV（公開前の
+# セール内容や 公開=FALSE の行を含む）や GAS のコードまでURLで読めてしまう。
+# サイトの表示に使うのは HTML と assets/ だけなので、それ以外は 404 にする。
+# 末尾の ! は「ファイルが実在しても強制的にこのルールを適用する」の意味。
+
+/sale-master/*   /404   404!
+/tools/*         /404   404!
+/.gitignore      /404   404!
