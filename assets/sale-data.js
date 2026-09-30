@@ -1,7 +1,7 @@
 /* 自動生成: スプレッドシートのメニューから公開。直接編集しないこと。 */
 window.SALE_DATA = {
   "ok": true,
-  "updatedAt": "2026-09-30T11:05:51.568Z",
+  "updatedAt": "2026-09-30T11:07:38.996Z",
   "common": {
     "meta": {
       "sale_id": "common",
@@ -1547,34 +1547,6 @@ window.SALE_DATA = {
         "footer": ""
       },
       "detail": null
-    },
-    {
-      "meta": {
-        "sale_id": "2026-10-aa",
-        "kind": "sale",
-        "startAt": "2026-09-30 10:00",
-        "endAt": "2026-10-30 09:59",
-        "summary": "最大5,000ポイントGET!",
-        "url": "https://travel.rakuten.co.jp/camp/service_debut/",
-        "scheduleOpenAt": "",
-        "name": "初めて利用キャンペーン",
-        "label": "",
-        "heroEyebrow": "",
-        "heroTitle": "",
-        "heroSub": "",
-        "heroNote": "",
-        "ctaLabel": "",
-        "ctaUrl": "",
-        "officialUrl": "https://travel.rakuten.co.jp/camp/service_debut/",
-        "schedulePeriod": "",
-        "ticketLead": "",
-        "rankingTitle": "",
-        "rankingSub": "",
-        "rankingNoteTitle": "",
-        "rankingNote": "",
-        "footer": ""
-      },
-      "detail": null
     }
   ],
   "ranking": {
@@ -1904,5 +1876,5 @@ window.SALE_DATA = {
       }
     ]
   },
-  "syncedAt": "2026-09-30 20:05"
+  "syncedAt": "2026-09-30 20:07"
 };
